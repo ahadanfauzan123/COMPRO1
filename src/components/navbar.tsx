@@ -33,7 +33,7 @@ function Navbar() {
     
       }, []);
   return (
-    <div className={`${showNavbar===false? "bg-transparent" : "bg-white shadow-sm shadow-gray-200 transition-all ease-in duration-300"} fixed z-50 top-0 left-0 w-screen h-[90px] px-[5vw] flex items-center justify-between`}>
+    <div className={`${showNavbar===false? "bg-transparent text-white" : "bg-white text-gray-600 shadow-sm shadow-gray-200 transition-all ease-in duration-300"} fixed z-50 top-0 left-0 w-screen h-[90px] px-[5vw] flex items-center justify-between`}>
       {/* left */}
       <a href='#home' className='scale-[0.8] lg:scale-100 flex items-center justify-start space-x-2 cursor-pointer'>
             {/* <Image priority quality={100} alt="image" src={Logo1} width={800} height={500} className='w-[160px] h-[60px]' /> */}
@@ -41,13 +41,13 @@ function Navbar() {
             {/* <Image priority quality={100} alt="image" src={Logo} width={800} height={500} className='w-[160px] h-[50px]' /> */}
       </a>
       {/* right lg */}
-      <div className='hidden flex-1 lg:flex lg:items-center lg:justify-end space-x-7 text-lg'>
-            <a href={"#home"} className="hover:scale-105 hover:text-blue-500 transition-all ease-in duration-150">Home</a>
-            <a href={"#about"} className="hover:scale-105 hover:text-blue-500 transition-all ease-in duration-150">About us</a>
-            <a href={"#service"} className="hover:scale-105 hover:text-blue-500 transition-all ease-in duration-150">Services</a>
-            <a href={"#portofolio"} className="hover:scale-105 hover:text-blue-500 transition-all ease-in duration-150">Portofolio</a>
-            <a href={"#contact"} className='px-4 py-3 hover:bg-blue-500 transition-all duration-300 rounded-md bg-blue-700 text-white'>Contact Us</a>
+      <div className='hidden flex-1 lg:flex lg:items-center lg:justify-center space-x-7 text-lg'>
+            <a href={"#home"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">Home</a>
+            <a href={"#about"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">About us</a>
+            <a href={"#service"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">Services</a>
+            <a href={"#portofolio"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">Portofolio</a>
       </div>
+      <a href={"#contact"} className='hidden lg:inline-flex px-4 py-3 hover:bg-orange-500 transition-all duration-300 rounded-md bg-orange-400 text-white'>Contact Us</a>
       {/* deskripsi sm */}
       <div className='inline-flex lg:hidden'>
                   <Sheet>

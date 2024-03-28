@@ -70,8 +70,8 @@ function Header() {
             </p>
         </div>
             <div className='flex items-center justify-start space-x-6 font-normal'>
-                  <a href="#plus" className='bg-blue-600 px-7 py-3 text-lg text-white rounded-xl'>See More</a>
-                  <a href="#contact" className='bg-blue-600 px-7 py-3 text-lg text-white rounded-xl'>Contact</a>
+                  <a href="#plus" className='bg-orange-400 px-7 py-3 text-lg text-white rounded-xl'>See More</a>
+                  <a href="#contact" className='bg-orange-400 px-7 py-3 text-lg text-white rounded-xl'>Contact</a>
             </div>
       </motion.div>
       <a href="#about" className=" absolute right-6 lg:right-[50%] bottom-6 lg:bottom-6 z-40">

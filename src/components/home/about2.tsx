@@ -7,7 +7,7 @@ import { CiLocationArrow1 } from "react-icons/ci";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { GiGreenhouse } from "react-icons/gi";
 import Link from 'next/link';
-
+import Image3 from "../../../public/img/about/about3.png"
 
 
 function Profile2() {
@@ -75,78 +75,122 @@ mewujudkan visi dan misi bisnis Anda.
       </motion.h3>
 
       </div>
-      {/* kegiatan ketiga */}
-      <div className="relative w-[80vw] mx-auto flex flex-col lg:flex-row space-y-8 items-start lg:items-center justify-center lg:justify-between h-[65vh]">
-        {/* <Image alt="svg" src="" width={100} height={100} className="absolute left-[50px] top-[40%]" /> */}
-        <FaRegLightbulb  className='z-10 h-24 w-24 absolute left-[45px] top-[40%] text-opacity-50 text-yellow-600'/>
-        <motion.h1
+      {/* kegiatan kedua */}
+      <div className="relative shadow-md shadow-gray-300 rounded-xl px-4 w-[80vw] mx-auto flex flex-col lg:flex-row space-y-8 items-start lg:items-center justify-center lg:justify-between h-[86vh] lg:h-[65vh]">
+        <motion.div
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
         variants={titleVariant1}
-        className="text-5xl z-20 flex-[0.2] lg:flex-[0.35] font-bold text-gray-600 leading-[50px]">Inovasi Berkelanjutan</motion.h1>
+        className="text-5xl z-20 flex-[0.2] lg:flex-[0.35] font-bold text-gray-600 leading-[50px]">
+          <div className='w-[400px] h-[300px] rounded-2xl'>
+            <Image src={Image3} alt="test" width={1000} height={1000} quality={90} className='w-full h-full object-cover rounded-2xl' />
+          </div>
+        </motion.div>
         <motion.h3 
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
         variants={titleVariant2}
-        className="flex-[0.4] z-20 text-start text-lg">
-            Kami selalu berupaya untuk meningkatkan 
-kualitas dan efisiensi layanan kami melalui inovasi dan penelitian terbaru 
-dalam bidang karoseri mobil.
-
-      
+        className="flex-[0.4] lg:flex-[0.6] z-20 text-start text-lg flex flex-col space-y-4">
+          <h1 className="text-2xl font-bold">Title</h1>
+          <p className='text-lg text-start'>
+          Kami peduli terhadap lingkungan dan 
+berkomitmen untuk mengurangi dampak negatif produksi terhadap 
+lingkungan sekitar.
+          </p>
+          <button className='px-4 py-2 bg-orange-400 w-[120px] text-white font-semibold rounded-lg'>See More</button>
+             
       </motion.h3>
 
       </div>
-      {/* kegiatan keempat */}
-      <div className="w-screen">
-      <div className="relative flex flex-col lg:flex-row space-y-8 items-end lg:items-center justify-between lg:justify-between w-[80%] mx-auto left-0 p-6 h-[60vh] lg:h-[55vh]">
-      {/* <Image alt="svg" src="" width={100} height={100} className="absolute right-[50px] top-[40%]" />
-         */}
-         <MdOutlinePhoneInTalk  className='z-10 h-24 w-24 text-opacity-50 absolute right-[50px] top-[40%] text-red-200'/>
-                         
+      {/* kegiatan ketiga sm */}
+      <div className="relative shadow-md shadow-gray-300 rounded-xl px-4 w-[80vw] mx-auto flex lg:hidden flex-col lg:flex-row space-y-8 items-start lg:items-center justify-center lg:justify-between h-[86vh] lg:h-[65vh]">
+        <motion.div
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.8 }}
+        variants={titleVariant1}
+        className="text-5xl z-20 flex-[0.2] lg:flex-[0.35] font-bold text-gray-600 leading-[50px]">
+          <div className='w-[400px] h-[300px] rounded-2xl'>
+            <Image src={Image3} alt="test" width={1000} height={1000} quality={90} className='w-full h-full object-cover rounded-2xl' />
+          </div>
+        </motion.div>
+        <motion.h3 
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.8 }}
+        variants={titleVariant2}
+        className="flex-[0.4] lg:flex-[0.6] z-20 text-start text-lg flex flex-col space-y-4">
+          <h1 className="text-2xl font-bold">Title</h1>
+          <p className='text-lg text-start'>
+          Kami peduli terhadap lingkungan dan 
+berkomitmen untuk mengurangi dampak negatif produksi terhadap 
+lingkungan sekitar.
+          </p>
+          <button className='px-4 py-2 bg-orange-400 w-[120px] text-white font-semibold rounded-lg'>See More</button>
+             
+      </motion.h3>
+
+      </div>
+      {/* kegiatan ketiga lg */}
+      <div className="w-screen hidden lg:inline-flex">
+      <div className="relative shadow-md shadow-gray-300 rounded-xl px-4 flex flex-col lg:flex-row space-y-8 items-end lg:items-center justify-between lg:justify-between w-[80%] mx-auto left-0 p-6 h-[60vh] lg:h-[55vh]">
       <motion.h3 
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
         variants={titleVariant2}
-        className="flex-[0.4] z-20 text-start text-lg">
-          Kepuasan pelanggan adalah prioritas 
-utama kami. Tim kami siap memberikan pelayanan terbaik mulai dari 
-konsultasi desain hingga layanan purna jual.
+        className="flex-[0.4] z-20 text-start text-lg flex flex-col space-y-4">
+          <h1 className="text-2xl font-bold">Title</h1>
+          <p className='text-lg text-start'>
+          Kami peduli terhadap lingkungan dan 
+berkomitmen untuk mengurangi dampak negatif produksi terhadap 
+lingkungan sekitar.
+          </p>
+          <button className='px-4 py-2 bg-orange-400 w-[120px] text-white font-semibold rounded-lg'>See More</button>
+             
 </motion.h3>
-        <motion.h1
+        <motion.div
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
         variants={titleVariant1}
-        className="text-5xl z-20 flex-[0.2] text-end lg:flex-[0.35] font-bold leading-[50px]">Pelayanan Pelanggan Prima</motion.h1>
+        className="text-5xl z-20 flex-[0.2] text-end lg:flex-[0.35] font-bold leading-[50px]">
+          <div className='w-[400px] h-[300px] rounded-2xl'>
+            <Image src={Image3} alt="test" width={1000} height={1000} quality={90} className='w-full h-full object-cover rounded-2xl' />
+          </div>
+        </motion.div>
         
 
       </div>
       </div>
-      {/* kegiatan kelima */}
-      <div className="relative w-[80vw] mx-auto flex flex-col lg:flex-row space-y-8 items-start lg:items-center justify-center lg:justify-between h-[65vh]">
-        {/* <Image alt="svg" src="" width={100} height={100} className="absolute left-[50px] top-[40%]" /> */}
-        <GiGreenhouse  className='z-10 h-24 w-24 text-opacity-50 absolute left-[45px] top-[40%] text-green-600'/>
-        <motion.h1
+      {/* kegiatan ke empat */}
+      <div className="relative shadow-md shadow-gray-300 rounded-xl px-4 w-[80vw] mx-auto flex flex-col lg:flex-row space-y-8 items-start lg:items-center justify-center lg:justify-between h-[86vh] lg:h-[65vh]">
+        <motion.div
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
         variants={titleVariant1}
-        className="text-5xl z-20 flex-[0.2] lg:flex-[0.35] font-bold text-gray-600 leading-[50px]">Komitmen Lingkungan</motion.h1>
+        className="text-5xl z-20 flex-[0.2] lg:flex-[0.35] font-bold text-gray-600 leading-[50px]">
+          <div className='w-[400px] h-[300px] rounded-2xl'>
+            <Image src={Image3} alt="test" width={1000} height={1000} quality={90} className='w-full h-full object-cover rounded-2xl' />
+          </div>
+        </motion.div>
         <motion.h3 
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
         variants={titleVariant2}
-        className="flex-[0.4] z-20 text-start text-lg">
-             Kami peduli terhadap lingkungan dan 
+        className="flex-[0.4] lg:flex-[0.6] z-20 text-start text-lg flex flex-col space-y-4">
+          <h1 className="text-2xl font-bold">Title</h1>
+          <p className='text-lg text-start'>
+          Kami peduli terhadap lingkungan dan 
 berkomitmen untuk mengurangi dampak negatif produksi terhadap 
 lingkungan sekitar.
-
-      
+          </p>
+          <button className='px-4 py-2 bg-orange-400 w-[120px] text-white font-semibold rounded-lg'>See More</button>
+             
       </motion.h3>
 
       </div>
