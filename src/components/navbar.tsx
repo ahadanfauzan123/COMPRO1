@@ -42,10 +42,10 @@ function Navbar() {
       </a>
       {/* right lg */}
       <div className='hidden flex-1 lg:flex lg:items-center lg:justify-center space-x-7 text-lg'>
-            <a href={"#home"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">Home</a>
-            <a href={"#about"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">About us</a>
-            <a href={"#service"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">Services</a>
-            <a href={"#portofolio"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">Portofolio</a>
+            <a href={"/"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">Home</a>
+            <a href={"/about"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">About us</a>
+            <a href={"/service"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">Services</a>
+            <a href={"/projects"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">Portofolio</a>
       </div>
       <a href={"#contact"} className='hidden lg:inline-flex px-4 py-3 hover:bg-orange-500 transition-all duration-300 rounded-md bg-orange-400 text-white'>Contact Us</a>
       {/* deskripsi sm */}
@@ -58,16 +58,19 @@ function Navbar() {
                             <SheetHeader>
                               <SheetDescription>
                               <div className='flex text-lg flex-col text-md font-semi-bold items-start justify-start space-y-8 mt-[100px]'>
-                                  <a href={"/#home"} className='flex items-center justify-start space-x-2'>
+                                  <a href={"/"} className='flex items-center justify-start space-x-2'>
                                     <h1>home</h1>  
                                   </a> 
-                                  <a href={"/#about"} className='flex items-center justify-start space-x-2'>
+                                  <a href={"/about"} className='flex items-center justify-start space-x-2'>
                                     <h1>profile</h1>  
                                   </a> 
-                                  <a href={"/#service"} className='flex items-center justify-start space-x-2'>
+                                  <a href={"/service"} className='flex items-center justify-start space-x-2'>
+                                    <h1>service</h1>  
+                                  </a> 
+                                  <a href={"/projects"} className='flex items-center justify-start space-x-2'>
                                     <h1>projects</h1>  
                                   </a> 
-                                  <a href={"/#portofolio"} className='flex items-center justify-start space-x-2'>
+                                  <a href={"/contact"} className='flex items-center justify-start space-x-2'>
                                     <h1>contact</h1>  
                                   </a> 
                               </div>
