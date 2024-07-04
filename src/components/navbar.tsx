@@ -47,7 +47,7 @@ function Navbar() {
             <a href={"/service"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">Services</a>
             <a href={"/projects"} className="hover:scale-105 hover:text-orange-500 transition-all ease-in duration-150">Portofolio</a>
       </div>
-      <a href={"#contact"} className='hidden lg:inline-flex px-4 py-3 hover:bg-orange-500 transition-all duration-300 rounded-md bg-orange-400 text-white'>Contact Us</a>
+      <a href={"/contact"} className='hidden lg:inline-flex px-4 py-3 hover:bg-orange-500 transition-all duration-300 rounded-md bg-orange-400 text-white'>Contact Us</a>
       {/* deskripsi sm */}
       <div className='inline-flex lg:hidden'>
                   <Sheet>

@@ -54,11 +54,9 @@ function About1() {
                     className='flex-1 flex items-start justify-start flex-col space-y-9'>
                       <h1 className="w-full text-start text-[42px] font-extrabold "><span className="">About Us</span></h1>
                       <p className=" w-full lg:w-[65%] text-start">
-                      Code Craft adalah perusahaan yang berfokus pada penyediaan solusi digital inovatif untuk membantu bisnis meningkatkan kehadiran mereka secara online. Kami didedikasikan untuk membantu bisnis-bisnis yang belum memiliki website untuk mengembangkan kehadiran online yang kuat dan efektif.
+                      PT. Lexica Cala Nusa adalah perusahaan konstruksi yang berdedikasi untuk memberikan solusi berkualitas tinggi dalam pembangunan gedung komersial dan hunian. Sejak didirikan, kami telah membangun reputasi sebagai mitra yang dapat diandalkan dengan mengutamakan inovasi, keunggulan teknis, dan kepuasan pelanggan.<br />
         <br />
-        <br />
-        Di Code Craft, kami percaya bahwa setiap bisnis memiliki potensi untuk sukses dalam dunia digital yang terus berkembang. Itulah mengapa kami berkomitmen untuk menyediakan layanan yang memenuhi kebutuhan unik setiap klien kami, dengan fokus pada inovasi, kreativitas, dan hasil yang berorientasi pada tujuan. Kami memahami bahwa setiap bisnis memiliki cerita uniknya sendiri, dan kami bersemangat untuk menjadi bagian dari perjalanan Anda dalam mengubah visi menjadi kenyataan digital. 
-                      </p>
+        Dengan tim yang terdiri dari para ahli berpengalaman lebih dari 10 tahun, kami mendedikasikan diri untuk memenuhi kebutuhan unik setiap proyek dengan memadukan kreativitas dengan pemahaman mendalam tentang teknis konstruksi. Kami mengintegrasikan teknologi dan praktik terbaik industri untuk memastikan setiap proyek kami diselesaikan dengan tepat waktu, dalam anggaran, dan dengan standar kualitas yang tinggi.</p>
                       {/* <Link href={"/"} className='text-white bg-blue-500 rounded-xl px-5 py-2'>Read More</Link> */}
                     </motion.div>
                     {/* right */}
@@ -91,11 +89,10 @@ function About1() {
                     className='flex-1 flex items-end justify-start flex-col space-y-9'>
                       <h1 className="w-full text-end text-[42px] font-extrabold "><span className="">Company History</span></h1>
                       <p className=" w-full lg:w-[65%] text-end">
-                        Code Craft adalah perusahaan yang berfokus pada penyediaan solusi digital inovatif untuk membantu bisnis meningkatkan kehadiran mereka secara online. Kami didedikasikan untuk membantu bisnis-bisnis yang belum memiliki website untuk mengembangkan kehadiran online yang kuat dan efektif.
+                      Visi kami adalah menjadi pemimpin terdepan dalam industri konstruksi di Indonesia dengan reputasi tak tertandingi dalam inovasi, keunggulan teknis, dan kepuasan pelanggan di seluruh proyek pembangunan gedung komersial dan hunian. Kami berkomitmen untuk menetapkan standar tertinggi dalam setiap aspek proyek, dari perencanaan hingga penyelesaian, dengan tujuan mencapai keunggulan dan ketahanan di setiap proyek yang kami tangani.<br />
                         <br />
-                        <br />
-                        Di Code Craft, kami percaya bahwa setiap bisnis memiliki potensi untuk sukses dalam dunia digital yang terus berkembang. Itulah mengapa kami berkomitmen untuk menyediakan layanan yang memenuhi kebutuhan unik setiap klien kami, dengan fokus pada inovasi, kreativitas, dan hasil yang berorientasi pada tujuan. Kami memahami bahwa setiap bisnis memiliki cerita uniknya sendiri, dan kami bersemangat untuk menjadi bagian dari perjalanan Anda dalam mengubah visi menjadi kenyataan digital. 
-                      </p>
+                        Misi kami mencakup lima pilar utama: memberikan kualitas terbaik dengan memanfaatkan teknologi terbaru dan praktik industri terbaik; mengutamakan keamanan dan keberlanjutan dalam setiap proyek melalui praktik konstruksi yang bertanggung jawab; mengedepankan kolaborasi dengan membangun hubungan yang kuat dengan klien, arsitek, dan mitra; terus mendorong inovasi dan pembaruan berkelanjutan untuk meningkatkan efisiensi dan kualitas; serta memastikan penyelesaian proyek tepat waktu dan sesuai anggaran tanpa mengorbankan standar kualitas tinggi yang kami junjung.
+                        </p>
                       {/* <Link href={"/"} className='text-white bg-blue-500 rounded-xl px-5 py-2'>Read More</Link> */}
                     </motion.div>
                     

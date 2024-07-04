@@ -1,11 +1,13 @@
 import About1 from '@/components/about/about1'
+import CompanyLocation from '@/components/about/companyLocation'
 import Core1 from '@/components/about/core1'
-import ImageBanner from '@/components/about/imageBanner'
+import ImageBanner from '@/components/imageBanner'
 import Project1 from '@/components/about/project1'
 import Slider1 from '@/components/about/slider1'
 import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
 import React from 'react'
+import Banner from "../../../public/img/banner3.png"
 
 function About() {
   return (
@@ -13,7 +15,7 @@ function About() {
       {/* navbar */}
       <Navbar />
       {/* ImageBanner */}
-      <ImageBanner />
+      <ImageBanner title='About' pathDescription='Home / About' bannerImage={Banner} />
       {/* about */}
       <About1 />
       {/* slider */}
@@ -22,6 +24,8 @@ function About() {
       <Core1 />
       {/* Projects */}
       <Project1 />
+      {/* company location */}
+      <CompanyLocation / >
       {/* footer */}
       <Footer />
     </main>
